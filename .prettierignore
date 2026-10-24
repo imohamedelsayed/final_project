@@ -1,0 +1,10 @@
+node_modules/
+.pnpm-store/
+.next/
+coverage/
+dist/
+pnpm-lock.yaml
+final_docs_of_project/
+.agents/
+.planning/
+docs/

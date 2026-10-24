@@ -1,0 +1,25 @@
+{
+  "name": "pixel-store",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.18.0",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "scripts": {
+    "dev:web": "pnpm --filter @pixel-store/web dev",
+    "dev:api": "pnpm --filter @pixel-store/api dev",
+    "lint": "pnpm --recursive run lint",
+    "format:check": "prettier --check .",
+    "format": "prettier --write .",
+    "test": "pnpm --recursive run test",
+    "build": "pnpm --recursive run build"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "eslint": "^9.36.0",
+    "eslint-config-next": "^16.0.0",
+    "prettier": "^3.6.2"
+  }
+}

@@ -1,0 +1,12 @@
+http://localhost:3000/admin/dev-admin-secret-gate-9482/login
+admin password & e-mail 
+dashboard UI
+hide dashboard route 
+store settings  
+Banners 
+products images
+Nav Bar ----> All Hardware      Conact US      Our Policy (editable from dashboard)    Deals  
+Don't forget the bottom 
+stock quantity on new parts 
+security 	
+

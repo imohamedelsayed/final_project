@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "avoid-ai-design": {
+      "source": "funboy322/avoid-ai-design",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "9676d29d37cff593d695f8eb08a115728c855e7eec50d2e0544f4cfcc1d65e82"
+    },
+    "planning-with-files": {
+      "source": "OthmanAdi/planning-with-files",
+      "sourceType": "github",
+      "skillPath": "skills/planning-with-files/SKILL.md",
+      "computedHash": "b8b0c79aed4a530261149ec7616bea306c8a8236932a9c9489ddd05bb8a0b14f"
+    }
+  }
+}

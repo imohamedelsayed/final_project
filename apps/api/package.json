@@ -1,0 +1,30 @@
+{
+  "name": "@pixel-store/api",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "lint": "eslint .",
+    "test": "node --test --test-concurrency=1",
+    "db:migrate": "node src/db/scripts/migrate.js",
+    "db:seed": "node src/db/scripts/seed.js",
+    "db:create-super-admin": "node src/db/scripts/create-super-admin.js",
+    "orders:expire": "node src/jobs/expire-orders.js",
+    "build": "node -e \"console.log('API uses CommonJS and requires no compilation.')\""
+  },
+  "dependencies": {
+    "argon2": "^0.45.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "otplib": "^13.5.0",
+    "pg": "^8.16.3",
+    "pino": "^9.10.0",
+    "pino-http": "^10.5.0",
+    "typeorm": "^0.3.26",
+    "zod": "^4.1.8"
+  }
+}
